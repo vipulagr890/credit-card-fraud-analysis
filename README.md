@@ -11,10 +11,18 @@ In the following ML model we have classified the fraud transaction and then the 
   and can is justified as the fraud transaction are relatively low compared to normal transactions.
  
 2. The dataset consists of numerical values from the 28 ‘Principal Component Analysis (PCA)’ transformed features, namely V1 to V28. 
-Furthermore, there is no metadata about the original features provided due to security purpose of the idividual data,
+Furthermore, there is no metadata about the original features provided due to security purpose of the individual data,
 so pre-analysis or feature study could not be done.
 
 3. There is no missing value in dataset.
 
 4. The 'Time' and 'Amount' features are not transformed dataset.
 
+# Model Insights:
+
+In the following analysis we have used Logistic regreession for our classification problem but as we can see from our confusion mtrix, we still have around 
+99 wrong classified transaction which can be huge in a real world scenerio.
+
+So to improve our model performance we will use SVC and ensembel techniques for the classisfier.
+
+date for next release: 2 august 2020.
